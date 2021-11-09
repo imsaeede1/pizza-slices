@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+}
+.textPizza {
+  position: absolute;
+  z-index: 1;
+  margin: 20px;
+}
+
+.hold {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  clip: rect(0px, 200px, 200px, 100px);
+  left: 300px;
+  border-radius: 150px;
+  margin: 50px 360px;
+}
+.Pizza {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  clip: rect(0px, 100px, 200px, 0px);
+  border-radius: 100px;
+}
+.PizzaContainer {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin: 0 0 20px 20px;
+}
+#PizzaSliceYellow {
+  transform: rotate(350deg);
+}
+#PizzaSliceYellow .Pizza {
+  background-color: #ff0101;
+  transform: rotate(60deg);
+  margin: -1px;
+}
+
+#PizzaSliceBlue {
+  transform: rotate(55deg);
+}
+#PizzaSliceBlue .Pizza {
+  background-color: #ff8a05;
+  transform: rotate(30deg);
+  margin: -2px;
+}
+#PizzaSliceRed {
+  transform: rotate(90deg);
+}
+#PizzaSliceRed .Pizza {
+  background-color: #ffdd20;
+  transform: rotate(35deg);
+  margin: -2px;
+}
+#PizzaSliceOlive {
+  transform: rotate(130deg);
+}
+#PizzaSliceOlive .Pizza {
+  background-color: #00fd0d;
+  transform: rotate(75deg);
+  margin: -2px;
+}
+#PizzaSliceOrange {
+  transform: rotate(210deg);
+}
+#PizzaSliceOrange .Pizza {
+  background-color: #0bbaff;
+  transform: rotate(35deg);
+  margin: -2px;
+}
+#PizzaSliceLime {
+  transform: rotate(250deg);
+}
+#PizzaSliceLime .Pizza {
+  background-color: #fa4ace;
+  transform: rotate(35deg);
+  margin-top: -1px;
+}
+#PizzaSliceDark {
+  transform: rotate(290deg);
+}
+#PizzaSliceDark .Pizza {
+  background-color: #810f65;
+  transform: rotate(55deg);
+  margin: -2px;
+}

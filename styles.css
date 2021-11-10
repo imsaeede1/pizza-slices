@@ -43,27 +43,27 @@ h2 {
   float: right;
   margin: 0 0 20px 20px;
 }
-#PizzaSliceYellow {
+#PizzaSliceRed {
   transform: rotate(350deg);
 }
-#PizzaSliceYellow .Pizza {
+#PizzaSliceRed .Pizza {
   background-color: #ff0101;
   transform: rotate(60deg);
   margin: -1px;
 }
 
-#PizzaSliceBlue {
+#PizzaSliceOrange {
   transform: rotate(55deg);
 }
-#PizzaSliceBlue .Pizza {
+#PizzaSliceOrange .Pizza {
   background-color: #ff8a05;
   transform: rotate(30deg);
   margin: -2px;
 }
-#PizzaSliceRed {
+#PizzaSliceYellow {
   transform: rotate(90deg);
 }
-#PizzaSliceRed .Pizza {
+#PizzaSliceYellow .Pizza {
   background-color: #ffdd20;
   transform: rotate(35deg);
   margin: -2px;
@@ -76,26 +76,26 @@ h2 {
   transform: rotate(75deg);
   margin: -2px;
 }
-#PizzaSliceOrange {
+#PizzaSliceBlue {
   transform: rotate(210deg);
 }
-#PizzaSliceOrange .Pizza {
+#PizzaSliceBlue .Pizza {
   background-color: #0bbaff;
   transform: rotate(35deg);
   margin: -2px;
 }
-#PizzaSliceLime {
+#PizzaSlicePink {
   transform: rotate(250deg);
 }
-#PizzaSliceLime .Pizza {
+#PizzaSlicePink .Pizza {
   background-color: #fa4ace;
   transform: rotate(35deg);
   margin-top: -1px;
 }
-#PizzaSliceDark {
+#PizzaSlicePurple {
   transform: rotate(290deg);
 }
-#PizzaSliceDark .Pizza {
+#PizzaSlicePurple .Pizza {
   background-color: #810f65;
   transform: rotate(55deg);
   margin: -2px;
